@@ -1,0 +1,160 @@
+*{
+    list-style-type: none;
+}
+
+
+body{
+        font-family: "Mada", serif;
+        font-optical-sizing: auto; 
+        font-weight: 600; 
+        font-style: normal; 
+        margin: 0%;
+       
+        
+}
+ 
+.ul-menu{
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+ 
+   
+    
+}
+.li-menu{
+    float: right;
+}
+.a-menu{
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.li-menu a:hover{
+    background-color: black;
+}
+
+.title-menu{
+    display: inline;
+    padding-left: 50px;
+    font-size: 1.75em ;
+    
+}
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+   
+}
+#img1{
+    height: 200px;
+     width: 200px;
+}
+.social{
+    width: 40px;
+    padding: 5px;
+}
+
+.left{
+    width: 20%;
+    float: left;
+}
+.right{
+    width: 80%;
+    float: left;
+}
+
+.row2{
+    padding: 5px;
+}
+.row2::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-bar{
+  background-color: gray;
+  display: block;
+  height: 17px;
+}
+.main-bar span{
+    background-color: teal;
+    height: 17px;
+    display: block;
+    color: white;
+
+}
+.css{
+    width: 70%;
+    animation: css 2s;
+}
+
+.html{
+    width: 80%;
+    animation: html 2s;
+}
+
+.python{
+    width: 50%;
+    animation: python 2s;
+}
+.Javascript{
+    width: 40%;
+    animation: javascript 2s;
+  
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    height: 40px;
+    color: white;
+    margin: 0%;
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+      
+    }
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+        
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+       
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+        
+    }
+}
+@media screen and (max-width:800px) {
+    .column{
+        width: 100%;
+    }
+}
